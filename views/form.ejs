@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Message</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>New Message</h1>
+    <form action="/new" method="POST" id="new-form">
+        <div class="form-control">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="messageUser" required>
+        </div>
+        <div class="form-control">
+            <label for="message">Message*</label>
+            <textarea name="messageText" id="message" cols="30" rows="5" required></textarea>
+        </div>
+        <button type="Submit" style="margin-top: 12px;">Submit</button>
+    </form>
+  </body>
+</html>

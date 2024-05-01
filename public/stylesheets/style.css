@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#message-group {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+#new-form {
+  width: 35%;
+}
+
+.form-control {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
